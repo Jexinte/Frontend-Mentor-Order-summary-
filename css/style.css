@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;1,300&display=swap');
+body
+{
+    margin:0;
+    padding: 0;
+    font-family: 'Red Hat Display';
+}
+
+p{
+    font-size: 16px;
+}
+.great_frame{
+    max-width: 1470px;
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-size: cover;
+    margin: 0 auto;
+  
+}
+.frame_0{
+    height:auto;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top:200px;
+    border-radius: 4%;
+    background: white;
+    border:1px solid black;
+}
+
+.illustration_hero{
+    width: 100%;
+    max-width: 100%;
+    border-top-right-radius:21px;
+    border-top-left-radius:20px;
+}
+
+
+h1{
+    text-align: center;
+    font-weight: 900;
+
+}
+
+.first_paragraph{
+    text-align: center;
+    font-weight: 500;
+    color:rgba(128, 128, 128, 0.927);
+    opacity: 0.8;
+    padding: 5%;
+}
+
+.icon_music{
+    background-size:20px 30px;
+}
+/* Coded by Jarinte */
+.attribution 
+{
+ font-size: 11px; 
+text-align: center;
+
+}
+
+.attribution a 
+{
+     color: hsl(228, 45%, 44%); 
+    
+}
