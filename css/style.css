@@ -16,10 +16,12 @@ p
 
 .great_frame
 {
+    background-color: #DFE6FB;
     max-width: 1470px;
     background-image: url('../images/pattern-background-desktop.svg');
     background-size: cover;
     margin: 0 auto;
+    height:900px;
     
 }
 
@@ -155,7 +157,66 @@ button a
     color:grey;
 }
 
+@media all and (max-width:1024px){
 
+    .frame_0
+    {
+        width: 340px;
+        max-width: auto;
+    }
+
+        button
+    {
+        padding-left:50px;
+        padding-right: 50px;
+        padding-top : 15px;
+        padding-bottom: 15px;
+        background-color: red;
+        background-color:hsl(245, 75%, 52%);
+        position: relative;
+        top:10px;
+        left:17%;
+        border:none;
+        border-radius: 15px;
+        box-shadow: 10px 8px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        cursor: pointer;
+        font-family: 'Red Hat Display';
+    }
+
+    
+
+    .small_frame{
+        height: auto;
+        padding: 10px;
+    }
+    .icon_music{
+        position: relative;
+        top:10px;
+    }
+
+    .icon_music_description{
+        position: relative;
+        top:12px;
+    }
+
+    #change{
+        position: relative;
+        bottom:29px;
+    }
+    #order
+    {
+        padding-bottom: 30px;
+    }
+
+    #order a
+    {
+        position: relative;
+        left: 120px;
+    }
+
+
+}
 /* Coded by Jarinte */
 .attribution 
 {
